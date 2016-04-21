@@ -2,9 +2,9 @@
 
 color=$1
 
-R=${color:0:3}
-G=${color:4:3}
-B=${color:8:3}
+R=$(expr ${color:0:3} + 0)
+G=$(expr ${color:4:3} + 0)
+B=$(expr ${color:8:3} + 0)
 
 let "C=100-(100*$R)/255"
 let "M=100-(100*$G)/255"
