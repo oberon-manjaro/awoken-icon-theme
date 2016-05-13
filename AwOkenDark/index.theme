@@ -9,66 +9,92 @@ Directories=clear/128x128/emotes,clear/128x128/actions,clear/128x128/apps,clear/
 Size=128
 Context=Actions
 Type=Scalable
+MinSize=8
+MaxSize=128
 
 [clear/128x128/apps]
 Size=128
 Context=Applications
 Type=Scalable
+MinSize=8
+MaxSize=128
 
 [clear/128x128/categories]
 Size=128
 Context=Categories
 Type=Scalable
+MinSize=8
+MaxSize=128
 
 [clear/128x128/devices]
 Size=128
 Context=Devices
 Type=Scalable
+MinSize=8
+MaxSize=128
 
 [clear/128x128/emblems]
 Size=128
 Context=Emblems
 Type=Scalable
+MinSize=8
+MaxSize=128
 
 [clear/128x128/emotes]
 Size=128
 Context=Emotes
 Type=Scalable
+MinSize=8
+MaxSize=128
 
 [clear/128x128/mimetypes]
 Size=128
 Context=MimeTypes
 Type=Scalable
+MinSize=8
+MaxSize=128
 
 [clear/128x128/places]
 Size=128
 Context=Places
 Type=Scalable
+MinSize=8
+MaxSize=128
 
 [clear/128x128/status]
 Size=128
 Context=Status
 Type=Scalable
+MinSize=8
+MaxSize=128
 
 [clear/128x128/stock]
 Size=128
 Context=Stock
 Type=Scalable
+MinSize=8
+MaxSize=128
 
 [clear/64x64/apps]
 Size=64
 Context=Applications
 Type=Scalable
+MinSize=8
+MaxSize=64
 
 [clear/48x48/apps]
 Size=48
 Context=Applications
 Type=Scalable
+MinSize=8
+MaxSize=48
 
 [clear/32x32/apps]
 Size=32
 Context=Applications
 Type=Scalable
+MinSize=8
+MaxSize=32
 
 [clear/24x24/actions]
 Size=24
