@@ -3,7 +3,14 @@ Name=AwOken
 Comment=Awesome Token icon theme, by alecive
 Inherits=ubuntu-mono-dark,gnome,hicolor
 Example=python
-Directories=clear/128x128/emotes,clear/128x128/actions,clear/128x128/apps,clear/128x128/categories,clear/128x128/devices,clear/128x128/emblems,clear/128x128/mimetypes,clear/128x128/places,clear/128x128/status,clear/128x128/stock,clear/64x64/apps,clear/48x48/apps,clear/32x32/apps,clear/22x22/actions,clear/22x22/apps,clear/22x22/devices,clear/22x22/mimetypes,clear/22x22/status,clear/22x22/stock,clear/22x22/places,clear/24x24/emotes,clear/24x24/actions,clear/24x24/apps,clear/24x24/categories,clear/24x24/devices,clear/24x24/emblems,clear/24x24/mimetypes,clear/24x24/places,clear/24x24/status,clear/24x24/stock,clear/24x24/animations,clear/16x16/actions,clear/16x16/apps,clear/16x16/status
+Directories=clear/192x192/apps,clear/128x128/stock,clear/128x128/status,clear/128x128/places,clear/128x128/mimetypes,clear/128x128/emotes,clear/128x128/emblems,clear/128x128/devices,clear/128x128/categories,clear/128x128/apps,clear/128x128/actions,clear/64x64/apps,clear/48x48/apps,clear/32x32/apps,clear/24x24/stock,clear/24x24/status,clear/24x24/places,clear/24x24/mimetypes,clear/24x24/emotes,clear/24x24/emblems,clear/24x24/devices,clear/24x24/categories,clear/24x24/apps,clear/24x24/actions,clear/22x22/stock,clear/22x22/status,clear/22x22/places,clear/22x22/mimetypes,clear/22x22/emblems,clear/22x22/devices,clear/22x22/apps,clear/22x22/actions,clear/16x16/status,clear/16x16/apps,clear/16x16/actions
+
+[clear/192x192/apps]
+Size=192
+Context=Applications
+Type=Scalable
+MinSize=8
+MaxSize=192
 
 [clear/128x128/actions]
 Size=128
@@ -103,13 +110,6 @@ Type=Scalable
 MinSize=1
 MaxSize=24
 
-[clear/24x24/animations]
-Size=24
-Context=Animations
-Type=Scalable
-MinSize=1
-MaxSize=24
-
 [clear/24x24/apps]
 Size=24
 Context=Applications
@@ -190,6 +190,13 @@ MaxSize=22
 [clear/22x22/devices]
 Size=22
 Context=Devices
+Type=Scalable
+MinSize=1
+MaxSize=22
+
+[clear/22x22/emblems]
+Size=22
+Context=Emblems
 Type=Scalable
 MinSize=1
 MaxSize=22
